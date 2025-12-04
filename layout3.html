@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Layout3</title>
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+                width:80%;
+                box-sizing:border-box;
+                margin:auto;
+            }
+            #l1{
+                background-color:lightgray;
+                min-height:40px;
+                line-height:40px;
+                width:100%;
+                padding-left:20px;
+                margin-bottom:10px;
+                
+            }
+            #c{
+                display:flex;
+                width:100%;
+                min-height:400px;
+               
+            }
+            #v1{
+                width:40%;
+                min-height:400px;
+                padding-left:10px;
+            }
+            #v2{
+                display:flex;
+                width:60%;
+                min-height:400px;
+                flex-direction:column;
+            }
+            #b{
+                width:100%;
+                min-height:75px;
+                line-height:75px;
+                background-color:lightgrey;
+                margin-bottom:10px;
+                text-align:center;
+            }
+            #b1{
+                width:100%;
+                min-height:350px;
+                line-height:350px;
+                background-color:lightgrey;
+                margin-bottom:10px;
+                text-align:center;
+            }
+            #f{
+                width:100%;
+                min-height:30px;
+                line-height:30px;
+                text-align:center;
+                background-color:lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="l1">Logo</div>
+        <div id="c">
+            <div id="v1">
+                <div>Side bar</div>
+                <div>Navigation</div>
+            </div>
+            <div id="v2">
+                <div id="b">Header/Banner</div>
+                <div id="b1">Body Area</div>
+            </div>
+        </div>
+        <div id="f">Footer</div>
+    </body>
+</html>
